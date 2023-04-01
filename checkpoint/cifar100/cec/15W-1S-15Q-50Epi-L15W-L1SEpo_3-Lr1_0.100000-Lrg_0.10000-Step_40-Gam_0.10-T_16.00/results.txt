@@ -1,0 +1,33 @@
+Namespace(project='cec', dataset='cifar100', dataroot='data/', epochs_base=3, epochs_new=3, lr_base=0.1, lr_new=0.1, schedule='Step', milestones=[60, 70], step=40, decay=0.0005, momentum=0.9, gamma=0.1, temperature=16, not_data_init=False, batch_size_base=100, batch_size_new=0, test_batch_size=100, base_mode='ft_cos', new_mode='avg_cos', train_episode=50, episode_shot=1, episode_way=15, episode_query=15, lrg=0.1, low_shot=1, low_way=15, start_session=0, model_dir=None, set_no_val=False, gpu='0', test_device='cpu:0', num_workers=8, seed=1, debug=False, num_gpu=1, base_class=60, num_classes=100, way=5, shot=5, sessions=9, Dataset=<module 'dataloader.cifar100.cifar' from 'D:\\coding\\CEC-CVPR2021-main\\dataloader\\cifar100\\cifar.py'>, save_path='checkpoint\\cifar100/cec/15W-1S-15Q-50Epi-L15W-L1SEpo_3-Lr1_0.100000-Lrg_0.10000-Step_40-Gam_0.10-T_16.00')
+epoch:000,lr:0.10000,training_loss:3.37349,training_acc:0.05489,val_loss:4.50852,val_acc:0.03060
+epoch:001,lr:0.10000,training_loss:3.36415,training_acc:0.05164,val_loss:4.53076,val_acc:0.03340
+epoch:002,lr:0.10000,training_loss:3.35027,training_acc:0.05524,val_loss:4.49307,val_acc:0.03050
+Session 0, Test Best Epoch 1,
+best test Acc 5.7170
+
+Session 1, Test Best Epoch 1,
+best test Acc 5.1230
+
+Session 2, Test Best Epoch 1,
+best test Acc 4.8000
+
+Session 3, Test Best Epoch 1,
+best test Acc 4.3870
+
+Session 4, Test Best Epoch 1,
+best test Acc 4.1250
+
+Session 5, Test Best Epoch 1,
+best test Acc 3.8590
+
+Session 6, Test Best Epoch 1,
+best test Acc 3.6780
+
+Session 7, Test Best Epoch 1,
+best test Acc 3.4630
+
+Session 8, Test Best Epoch 1,
+best test Acc 3.3400
+
+[5.717, 5.123, 4.8, 4.387, 4.125, 3.859, 3.678, 3.463, 3.34]
+Best epoch:1
